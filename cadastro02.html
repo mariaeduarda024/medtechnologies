@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Cadastro de Clientes </title>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" type = "text/css" href = "forms1.css" />
+    </head>
+    <body>
+        <p align="center"> <strong> Cadastro de Clientes </strong>  </p>
+    <br> 
+    <center>   
+        <fieldset>
+            <legend> Dados Pessoais </legend>
+        <table align="center" width="100%" heigth="150px" border="0">
+            <tr> <td width="1%"> <img src="imagens/perfil.png" align="center" width="250" height="180px"></td>
+                 <td width="54%"><div class="label-float">
+                    <input type="text" placeholder=" " required/>
+                    <label>Nome de Usuário</label>
+                  </div>
+                    <br>
+                 <div class="label-float">
+                    <input type="text" placeholder=" " required/>
+                    <label>Nascimento</label>
+                  </div>
+                    <br>
+                    <div class="label-float">
+                        <input type="text" placeholder=" " required/>
+                        <label>Gênero</label>
+                      </div>
+                        <br>
+                  Formação: <select name="formação">
+                    <option value="ensino médio incompleto"> Ensino Médio Incompleto </option>
+                    <option value="ensino médio completo"> Ensino Médio Completo </option>
+                    <option value="ensino superior incompleto"> Ensino Superior Incompleto </option>
+                    <option value="ensino superior completo"> Ensino Superior Completo </option>
+                    <option value="pós graduação incompleto"> Pós Graduação Incompleto </option>
+                    <option value="pós graduação completo"> Pós Graduação Completo </option>
+                    <option value="doutorado incompleto"> Doutorado Incompleto </option>
+                    <option value="doutorado completo"> Doutorado Completo </option>
+                  </select>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  Profissão: <select name="profissão">
+                    <option value="administração"> Administração </option>
+                    <option value="administração pública"> Administração Pública </option>
+                    <option value="agronegócio e agropecuária"> Agronegócio e Agropecuária </option>
+                    <option value="ciências aeronáuticas"> Ciências Aeronáuticas </option>
+                    <option value="ciências atuariais"> Ciências Autoriais </option>
+                    <option value="ciências contábeis"> Ciências Contábeis </option>
+                    <option value="ciências econômicas"> Ciências Econômicas </option>
+                    <option value="comércio exterior"> Comércio Exterior </option>
+                    <option value="defesa e gestão estratégica internacional"> Defesa e Gestão Estratégica Internacional </option>
+                    <option value="gastronomia"> Gastronomia </option>
+                    <option value="gestão comercial"> Gestão Comercial </option>
+                    <option value="gestão de recursos humanos"> Gestão de Recursos Humanos </option>
+                    <option value="gestão de segurança privada"> Gestão de Segurança Privada </option>
+                    <option value="gestão de seguros"> Gestão de Seguros </option>
+                    <option value="gestão de turismo"> Gestão de Turismo </option>
+                    <option value="gestão financeira"> Gestão Financeira </option>
+                    <option value="gestão pública"> Gestão Pública </option>
+                    <option value="hotelaria"> Hotelaria </option>
+                    <option value="logística"> Logística </option>
+                    <option value="marketing"> Marketing </option>
+                    <option value="negócios imobiliários"> Negócios Imobiliários </option>
+                    <option value="processos gerenciais"> Processos Gerenciais </option>
+                    <option value="segurança pública"> Segurança Pública </option>
+                    <option value="turismo"> Turismo </option>
+                    </select>
+                  <br>
+                  <div class="label-float">
+                    <input type="text" placeholder=" " required/>
+                    <label>CPF</label>
+                  </div>
+                    <br>
+                </td>
+            </tr>     
+        </table>
+        </fieldset>
+
+        <fieldset>
+            <legend> Contato </legend>
+        <table align="center" width="100%" heigth="150px" border="0">
+            <tr> <td width="5%"> <img src="imagens/contato.jpg" align="center" width="250" height="180px"></td>
+                 <td width+"50%"> <div class="label-float">
+                    <input type="text" placeholder=" " required/>
+                    <label> Email</label>
+                  </div>
+                    <br>
+                    <div class="label-float">
+                        <input type="text" placeholder=" " required/>
+                        <label> Telefone </label>
+                      </div>
+                        <br>
+                        <div class="label-float">
+                            <input type="text" placeholder=" " required/>
+                            <label>Celular </label>
+                          </div>
+                            <br>
+                   <div class="label-float">
+                    <input type="text" placeholder=" " required/>
+                    <label> Skype </label>
+                  </div>
+                </td>
+            </tr>     
+        </table>
+        </fieldset>
+
+        <fieldset>
+            <legend> Endereço </legend>
+            <table align="center" width="100%" heigth="150px" border="0">
+                <tr> <td width="5%"> <img src="imagens/endereço.png" align="center" width="250" height="180px"></td>
+                     <td width="50%"> <div class="label-float">
+                        <input type="text" placeholder=" " required/>
+                        <label> Longradouro </label>
+                      </div>
+                        <br>
+                        <div class="label-float">
+                            <input type="text" placeholder=" " required/>
+                            <label> Número </label>
+                          </div>
+                            <br>
+                            <div class="label-float">
+                                <input type="text" placeholder=" " required/>
+                                <label> Bairro </label>
+                              </div>
+                                <br>
+                      Estado: <select id="estado" name="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                    </select>
+                        <br><br>
+                    </td>   
+                <td width="20%"> <div class="label-float">
+                    <input type="text" placeholder=" " required/>
+                    <label> CEP </label>
+                  </div>
+                        <br>
+                        <div class="label-float">
+                            <input type="text" placeholder=" " required/>
+                            <label> Cidade </label>
+                          </div>
+                    <br>
+                    <div class="label-float">
+                        <input type="text" placeholder=" " required/>
+                        <label> Complemento </label>
+                      </div>
+                    </td>
+                    </tr>
+            </table>
+        </fieldset>
+        
+
+      <br><br>
+
+        <table align="center" width="40%" heigth="150px" border="0">
+        <td> <input type="submit" name="Salvar Clientes"  value="Salvar Clientes"> </td> 
+        <td> <input type="reset"  name="Limpar Dados"    value="Limpar Dados"> </td> 
+        
+        </table>  
+      </center>  
+</body>
+</html>

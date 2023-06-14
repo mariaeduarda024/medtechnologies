@@ -1,0 +1,21 @@
+input{
+  border: 1px solid #ccc;
+  padding: 3px;
+  width: 250px;
+  outline: none;
+  display: block;
+  margin: 0px;
+  border-radius: 3px;
+}
+
+input:focus{
+  border: 1px solid rgb(239,132,60);
+}
+
+fieldset {
+
+border: 2px black solid;
+border-radius: 10px;
+width: 51%;
+}
+

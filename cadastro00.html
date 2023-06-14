@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Cadastro de Clientes </title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <p align="center"> <strong> Cadastro de Clientes </strong>  </p>
+    <br>
+        <table align="center" width="55%" heigth="150px" border="0">
+            <p align="center"> Dados Pessoais </p>
+            <tr> <td width="1%"> <img src="imagens/perfil.png" align="center" width="250" height="180px"></td>
+                 <td width="54%"> <br> Nome: <input type="text" name="nome" id="nome" placeholder="Digite seu Nome" size="50" maxlength="10">
+                  <br><br>
+                  Nascimento: <input type="date" name="nascimento"> 
+                  <br><br>
+                  Gênero: <input type="radio" name="sexo" value="masculino"> Masculino 
+                          <input type="radio" name="sexo" value="feminino"> Feminino
+                  <br><br>
+                  Formação: <select name="formação">
+                    <option value="ensino médio incompleto"> Ensino Médio Incompleto </option>
+                    <option value="ensino médio completo"> Ensino Médio Completo </option>
+                    <option value="ensino superior incompleto"> Ensino Superior Incompleto </option>
+                    <option value="ensino superior completo"> Ensino Superior Completo </option>
+                    <option value="pós graduação incompleto"> Pós Graduação Incompleto </option>
+                    <option value="pós graduação completo"> Pós Graduação Completo </option>
+                    <option value="doutorado incompleto"> Doutorado Incompleto </option>
+                    <option value="doutorado completo"> Doutorado Completo </option>
+                  </select>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  Profissão: <select name="profissão">
+                    <option value="administração"> Administração </option>
+                    <option value="administração pública"> Administração Pública </option>
+                    <option value="agronegócio e agropecuária"> Agronegócio e Agropecuária </option>
+                    <option value="ciências aeronáuticas"> Ciências Aeronáuticas </option>
+                    <option value="ciências atuariais"> Ciências Autoriais </option>
+                    <option value="ciências contábeis"> Ciências Contábeis </option>
+                    <option value="ciências econômicas"> Ciências Econômicas </option>
+                    <option value="comércio exterior"> Comércio Exterior </option>
+                    <option value="defesa e gestão estratégica internacional"> Defesa e Gestão Estratégica Internacional </option>
+                    <option value="gastronomia"> Gastronomia </option>
+                    <option value="gestão comercial"> Gestão Comercial </option>
+                    <option value="gestão de recursos humanos"> Gestão de Recursos Humanos </option>
+                    <option value="gestão de segurança privada"> Gestão de Segurança Privada </option>
+                    <option value="gestão de seguros"> Gestão de Seguros </option>
+                    <option value="gestão de turismo"> Gestão de Turismo </option>
+                    <option value="gestão financeira"> Gestão Financeira </option>
+                    <option value="gestão pública"> Gestão Pública </option>
+                    <option value="hotelaria"> Hotelaria </option>
+                    <option value="logística"> Logística </option>
+                    <option value="marketing"> Marketing </option>
+                    <option value="negócios imobiliários"> Negócios Imobiliários </option>
+                    <option value="processos gerenciais"> Processos Gerenciais </option>
+                    <option value="segurança pública"> Segurança Pública </option>
+                    <option value="turismo"> Turismo </option>
+                    </select>
+                  <br><br>
+                  CPF: <input type="text" name="cpf" id="cpf" value="Digite seu CPF" size="20" maxlength="10">
+                  <br><br>
+                </td>
+            </tr>     
+        </table>
+
+        <table align="center" width="55%" heigth="150px" border="0">
+            <p align="center"> Contato </p>
+            <tr> <td width="5%"> <img src="imagens/contato.jpg" align="center" width="250" height="180px"></td>
+                 <td width+"50%"> <br> Email: <input type="text" name="email" id="email" value="Digite seu Email" size="50" maxlength="10">
+                    <br><br>
+                  Telefone: <input type="text" name="telefone" id="telefone" value="Digite seu Telefone" size="20" maxlength="10"> 
+                  <br><br>
+                  Celular: <input type="text" name="celular" id="celular" value="Digite seu Celular" size="21" maxlength="10">
+                  <br><br>
+                  Skype: <input type="text" name="skype" id="skype" value="Digite seu Skype" size="22" maxlength="10">
+                </td>
+            </tr>     
+        </table>
+
+        <table align="center" width="55%" heigth="150px" border="0">
+            <p align="center"> Endereço </p>
+            <tr> <td width="1%"> <img src="imagens/endereço.png" align="center" width="250" height="180px"></td>
+                 <td width="50%">  Longradouro: <input type="text" name="longradouro" id="longradouro" value="Digite o Longradouro" size="30" maxlength="10">
+                    <br><br>
+                  Número: <input type="text" name="número" id="número" value="Digite o Número" size="10" maxlength="10"> 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  CEP: <input type="text" name="cep" id="cep" value="Digite o CEP" size="10" maxlength="10">
+                  <br><br>
+                  Bairro: <input type="text" name="bairro" id="bairro" value="Digite o Bairro" size="25" maxlength="10">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  Cidade: <input type="text" name="cidade" id="cidade" value="Digite a Cidade" size="20" maxlength="10">
+                  <br><br>
+                  Estado: <select id="estado" name="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="EX">Estrangeiro</option>
+                </select>
+                    <br><br>
+                  Complemento: <input type="text" name="complemento" id="complemento" value="Digite o Complemento" size="18" maxlength="10">
+                </td>
+            </tr>     
+        </table>
+
+      <br><br>
+
+        <table align="center" width="40%" heigth="150px" border="0">
+        <td> <input type="submit" name="Salvar Clientes"  value="Salvar Clientes"> 
+          <input type="reset"  name="Limpar Dados"    value="Limpar Dados"> 
+        </td>
+        </table>
+</body>
+</html>
+        

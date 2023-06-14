@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trabalhando com Formulários</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<form METHOD="GET" NAME="cadastro" ACTION="http://142.93.193.126/api/senai?email=fjignacio@gmail.com">
+
+<p>Nome: </p>
+ <input type="text" name="nome" value="Digite o seu nome"       size="25" maxlength="10">
+ <p>
+ <input type="text" name="sobrenome" placeholder="Digite seu nome2" size="25" maxlength="20">
+
+<p>Genero</p>
+<input type="radio" name="sexo"  value="Masculino"> Masculino
+<input type="radio" name="sexo"  value="Feminino"> Feminino
+
+
+<p>Comente algo sobre você...</p>
+ <textarea name="sobre" cols="50" rows="4" id="sobre"> Seu Comentário Aqui!
+ </textarea>
+
+<p>Voce gosta de :</p>
+<input type="checkbox" name="preferencia"  value="Pizzada">		    Pizzada           <br>
+<input type="checkbox" name="preferencia"  value="Churrascada">		Churrascada       <br>
+<input type="checkbox" name="preferencia"  value="Feriadao">		Feriadao    	  <br>
+<input type="checkbox" name="preferencia"  value="SorvetePicole">	Sorvete Picole    <br>
+<input type="checkbox" name="preferencia"  value="SorveteMassa">	Sorvete Massa     <br>
+
+<p>Digite sua senha</p>
+<input type="password" name="senha"  size="15" maxlength="5">
+
+<p>Comida Predileta: </p>
+<select name="comida">
+ <option value="Arroz">    Arroz   </option>
+ <option value="Feijao" >   Feijão  </option>
+ <option value="Picanha" >  Picanha </option>
+ <option value="Batata" >   Batata  </option>
+ <option value="Nenhuma" selected="selected">Nenhuma</option>
+</select>
+<p> 
+Data de nascimento: <input type="date" name="nascimento">
+</p>
+
+Data de nascimento: <input type="datetime-local" name="bdaytime">
+
+Selecione sua cor preferida: <input type="color" name="favcor" value="#0000FF">
+
+E-mail: <input type="email" name="e-mail" placeholder="digite seu e-mail aqui">
+
+<input type="file" name="arquivos">
+
+<input type="file" name="arquivos" multiple>
+
+
+  Primeiro nome: <input type="text" name="fname"><br>
+  Ultimo nome: <input type="text" name="lname"><br>
+  <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+
+
+
+
+Quantidade (entre 1 e 5): <input type="number" name="quantidade" min="1" max="5">  
+
+
+Defina seu nível de satisfação:<br>
+    pouco satisfeito     <input type="range" name="satisfacao" min="0" max="10">     muito satisfeito
+
+Telefone: <input type="tel" name="nr_telefone">
+
+Link do seu WebSite: <input type="url" name="webpage">
+
+    Selecione uma semana: <input type="week" name="semana">
+
+
+<p> Escolha seu Veículo:</p>
+<SELECT name="veiculo">
+     <OPTION selected label="Nenhum" value="Nenhum">Nenhum</OPTION>
+
+     <OPTGROUP label="Ford">
+       <OPTION label="Eco Sport 1.6" value="Eco Sport 1.6">Eco Sport 1.6 </OPTION>
+       <OPTION label="Eco Sport 2.0" value="Eco Sport 2.0">Eco Sport 2.0 </OPTION>
+       <OPTION label="Ford KA"       value="Ford KA ">     Ford KA       </OPTION>
+     </OPTGROUP>
+
+     <OPTGROUP label="Fiat">
+       <OPTION label="Idea ELX 1.4" value="Idea ELX 1.4">Idea ELX 1.4</OPTION>
+       <OPTION label="Idea ELX 1.8" value="Idea ELX 1.8">Idea ELX 1.8</OPTION>
+       <OPTION label="Idea ELX 2.0" value="Idea ELX 2.0">Idea ELX 2.0</OPTION>
+     </OPTGROUP>
+
+     <OPTGROUP label="GM">
+       <OPTION label="Celta 1.0" value="Celta 1.0"> Celta 1.0</OPTION>
+       <OPTION label="Corsa 1.0" value="Corsa 1.0"> Corsa 1.0</OPTION>
+       <OPTION label="Corsa 1.4" value="Corsa 1.4"> Corsa 1.4</OPTION>
+       <OPTION label="Corsa 1.8" value="Corsa 1.8"> Corsa 1.8</OPTION>
+     </OPTGROUP>
+ </SELECT>
+<p>
+<div>
+	<input type="submit" name="Enviar"      value="Enviar"> 
+	<input type="reset"  name="Cancelar"    value="Redefinir">
+</div>
+</form>
+</body>
+</html>
